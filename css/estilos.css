@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    height: 80%;
+    width: 80%;
+    grid-template-areas: 
+    "menu menu"
+    "header header"
+    "contenido lateral"
+    "footer footer";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 3cm;
+
+}
+.grid-menu{
+    grid-area: menu;
+    background-color: black;
+    font-size: 250%;
+    text-align: left;
+    padding-left: 2cm;
+}
+.imghome{
+    margin-bottom: -11px ;
+}
+.contenido{
+    grid-area: contenido;
+    text-align: center;
+    font-size: large;
+}
+.lateral{
+    grid-area: lateral;
+    text-align: center;
+    margin-top: 5cm;
+}
+.pie{
+    grid-area: footer;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.copyright{
+    text-align: center;
+    margin-top: 1cm;
+    background-color: black;
+    color: white;
+}
+.title{
+    background-color: white;
+    height: 80px;
+    width: 1263px;
+    font-size: 2cm;
+    text-align: left;
+    }
+.subtitle{
+    background-color: white;
+    font-size: 1cm;
+    text-align: left;
+    background-image: url("../assets/img/apdpfoto.png");
+    background-repeat:no-repeat;
+    background-position-x: 10.5cm;
+    background-position-y: center;
+    background-size: 6%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif ;
+    color:white ;
+}
+nav li{
+    display:inline-block ;
+
+}
+.box{
+    display:inline-block ;
+    margin-right: 5%;
+
+}
+
+
+.descrip{
+    font-size: 0.7cm;
+}
+.legend{
+    font-weight: bolder;
+}
+.lab{
+    font-weight: bold;
+}
+.li1{
+    font-size: x-large;
+}
+.servi{
+    font-size: xx-large;
+}
+
+#pantalla-div{
+    display:flex;
+}
+.products{
+    width: 50%;
+    height: 100vh;
+    list-style-type: disc;
+    margin-left: 1%;
+    
+
+}
+.img2{
+    width: 30%;
+    height: 100vh;
+}
+
+
+
