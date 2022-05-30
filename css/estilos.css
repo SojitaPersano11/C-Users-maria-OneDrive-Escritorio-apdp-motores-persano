@@ -5,8 +5,6 @@
 
 .grid-container{
     display: grid;
-    height: 80%;
-    width: 80%;
     grid-template-areas: 
     "menu menu"
     "header header"
@@ -17,15 +15,15 @@
 .header{
     grid-area: header;
     text-align: center;
-    margin-bottom: 3cm;
+    margin-bottom: 100px;
 
 }
 .grid-menu{
     grid-area: menu;
     background-color: black;
-    font-size: 250%;
+    font-size: 50px;
     text-align: left;
-    padding-left: 2cm;
+    padding-left: 64px;
 }
 .imghome{
     margin-bottom: -11px ;
@@ -33,12 +31,12 @@
 .contenido{
     grid-area: contenido;
     text-align: center;
-    font-size: large;
+    font-size: 20px;
 }
 .lateral{
     grid-area: lateral;
     text-align: center;
-    margin-top: 5cm;
+    margin-top: 25vh;
 }
 .pie{
     grid-area: footer;
@@ -49,26 +47,26 @@
 }
 .copyright{
     text-align: center;
-    margin-top: 1cm;
+    margin-top: 4vh;
     background-color: black;
     color: white;
 }
 .title{
     background-color: white;
     height: 80px;
-    width: 1263px;
-    font-size: 2cm;
+    width: 100vw;
+    font-size: 80px;
     text-align: left;
     }
 .subtitle{
     background-color: white;
-    font-size: 1cm;
+    font-size: 38px;
     text-align: left;
     background-image: url("../assets/img/apdpfoto.png");
     background-repeat:no-repeat;
-    background-position-x: 10.5cm;
+    background-position-x: 400px;
     background-position-y: center;
-    background-size: 6%;
+    background-size: 5vw;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -85,13 +83,12 @@ nav li{
 }
 .box{
     display:inline-block ;
-    margin-right: 5%;
-
+    margin-right: 60px;
 }
 
 
 .descrip{
-    font-size: 0.7cm;
+    font-size: 5px;
 }
 .legend{
     font-weight: bolder;
@@ -110,16 +107,17 @@ nav li{
     display:flex;
 }
 .products{
-    width: 50%;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
     list-style-type: disc;
     margin-left: 1%;
     
 
 }
 .img2{
-    width: 30%;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
+    padding-bottom: 500px;
 }
 
 
